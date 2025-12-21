@@ -1,7 +1,7 @@
 # Maintainer: Stephano Cetola <stephanoc@gmail.com>
 
 pkgname=linux-mnt-pocket-headers
-pkgver=6.17.12
+pkgver=6.18.2
 _pkgrel=1
 _kernver="${pkgver}-mnt-pocket"
 pkgrel=1
@@ -12,7 +12,7 @@ license=('GPL2')
 depends=('perl')
 
 source=("https://github.com/cetola/mnt-build/releases/download/${pkgver}-${pkgrel}-mnt-pocket/headers-${pkgver}-${pkgrel}-mnt.tar.gz")
-sha256sums=('96cd52e8b4e270dc80e583d58f526c9d37ede4cff9842d9078f54b0d7cce6b20')
+sha256sums=('76a7af163e9e879fa187e4b980414876da4dc309f79d01c5d09a6fe4d20b3fa1')
 
 provides=("linux-headers=${pkgver}")
 conflicts=('linux-aarch64-headers' 'linux-headers')
