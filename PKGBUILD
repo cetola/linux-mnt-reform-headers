@@ -12,7 +12,7 @@ license=('GPL2')
 depends=('perl')
 
 source=("https://github.com/cetola/mnt-build/releases/download/${pkgver}-${pkgrel}-mnt-pocket/headers-${pkgver}-${pkgrel}-mnt.tar.gz")
-sha256sums=('09b4e5053a7ea33393ba6b80ec7cfe26520f2a14cc0d6c3f83ef80b2e8adc1b1')
+sha256sums=('8f5c722816e71380810ef3d855242e3f62bceeee8188540ae67021ab98869988')
 
 provides=("linux-headers=${pkgver}")
 conflicts=('linux-aarch64-headers' 'linux-headers')
