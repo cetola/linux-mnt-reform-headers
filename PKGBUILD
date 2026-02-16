@@ -27,9 +27,4 @@ package() {
   install -dm755 "${pkgdir}/usr/lib/modules/${_kernver}/build"
   echo "Installing pre-prepared kernel headers..."
   cp -a . "${pkgdir}/usr/lib/modules/${_kernver}/build"
-
-  rm -f  "${pkgdir}/usr/lib/modules/${_kernver}/build/Makefile.orig"
-  rm -f  "${pkgdir}/usr/lib/modules/${_kernver}/build/.version"
-  rm -f  "${pkgdir}/usr/lib/modules/${_kernver}/build/vmlinux"
-  rm -rf "${pkgdir}/usr/lib/modules/${_kernver}/build/source"
 }
