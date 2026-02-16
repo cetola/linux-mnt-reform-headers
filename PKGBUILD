@@ -1,7 +1,7 @@
 # Maintainer: Stephano Cetola <stephanoc@gmail.com>
 
 pkgname=linux-mnt-pocket-headers
-pkgver=6.18.6
+pkgver=6.18.9
 _pkgrel=1
 _kernver="${pkgver}-mnt-pocket"
 pkgrel=1
