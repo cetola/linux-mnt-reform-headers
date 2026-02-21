@@ -1,7 +1,7 @@
 # Maintainer: Stephano Cetola <stephanoc@gmail.com>
 
 pkgname=linux-mnt-reform-headers
-pkgver=6.18.12
+pkgver=6.18.13
 _pkgrel=1
 _kernver="${pkgver}-mnt-reform"
 pkgrel=1
@@ -12,7 +12,7 @@ license=('GPL2')
 depends=('perl')
 
 source=("https://github.com/cetola/mnt-build/releases/download/${pkgver}-${pkgrel}-mnt-reform/headers-${pkgver}-${pkgrel}-mnt.tar.gz")
-sha256sums=('a060877e5fea0244eac75489e67a9113fcbe4907feb895caa9ae53cb36ad5c31')
+sha256sums=('079db00a04d9d2ae9573583bc5fd8e84b12fa8cd18c8cb3f0dad74c42878ee8d')
 
 provides=("linux-headers=${pkgver}")
 conflicts=('linux-aarch64-headers' 'linux-headers')
