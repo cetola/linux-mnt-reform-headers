@@ -1,0 +1,16 @@
+pkgbase = linux-mnt-reform-headers
+	pkgdesc = Header files and scripts for building modules for linux-mnt-reform kernel
+	pkgver = 6.18.13
+	pkgrel = 1
+	url = https://github.com/cetola/linux-mnt-reform-headers
+	arch = aarch64
+	license = GPL2
+	depends = perl
+	provides = linux-headers=6.18.13
+	conflicts = linux-aarch64-headers
+	conflicts = linux-headers
+	options = !strip
+	source = https://github.com/cetola/mnt-build/releases/download/6.18.13-1-mnt-reform/headers-6.18.13-1-mnt.tar.gz
+	sha256sums = 079db00a04d9d2ae9573583bc5fd8e84b12fa8cd18c8cb3f0dad74c42878ee8d
+
+pkgname = linux-mnt-reform-headers
